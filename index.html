@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,6 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Murilo Praxedes</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta name="referrer" content="no-referrer">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -16,68 +20,51 @@
             <a href="#aboutSection" class="efeito-cursor">Sobre</a>
             <a href="#contactSection" class="efeito-cursor">Fale Conosco</a>
         </nav>
-        <!-- <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a>Projetos</a>
-            </li>
-            <li>
-                <a>Sobre</a>
-            </li>
-            <li>
-                <a>Fale Comigo</a>
-            </li>
-        </ul> -->
     </header>
 
     <section class="principal" id="homeSection">
         <div>
             <h1>Olá, eu sou <span>Murilo Praxedes</span>.</h1>
-            <p>Desenvolvedor Criativo focado em construir experiências digitais exepcionais e interfaces intuitivas</p>
+            <p>Desenvolvedor Criativo focado em construir experiências digitais excepcionais e interfaces intuitivas</p>
             <a class="botao efeito-cursor" id="scrollButton">Ver Projetos</a>
         </div>
     </section>
 
     <section class="secao">
-        <h2 class="titulo-secao" id="projectsSection">
-            Projetos
-        </h2>
-        <div class="grade-projetos ">
+        <h2 class="titulo-secao" id="projectsSection">Projetos</h2>
+        <div class="grade-projetos">
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="assets/conversor.png" alt="conversor">
+                <img class="img-projeto" src="assets/conversor.png" alt="conversor de moedas">
                 <div class="info-projeto">
                     <h3>Conversor de Moedas</h3>
-                    <p>Um conversor de moedas criado com HTML, CSS e Javascript. Permite converter Real do Brasil para
-                        diversas moedas, como libra, dólar, euro e até bitcoin</p>
-                    <a href="">Ver projeto ➔</a>
+                    <p>Conversor criado com HTML, CSS e Javascript. Permite converter Real para dólar, euro, bitcoin e outras moedas.</p>
+                    <a href="#">Ver projeto ➔</a>
                 </div>
             </div>
 
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="assets/Instagram.png" alt="logo-instagram">
+                <img class="img-projeto" src="assets/Instagram.png" alt="interface instagram">
                 <div class="info-projeto">
                     <h3>Instagram</h3>
-                    <p>O site é uma recriação da interface do Instagram, desenvolvida com HTML, CSS e JavaScript. Ele apresenta uma página de login estilizada e responsiva, simulando a aparência da plataforma original.</p>
+                    <p>Recriação da interface do Instagram com HTML, CSS e JS. Página de login estilizada e responsiva.</p>
                     <a href="https://murilo-praxedes.github.io/Instagram-devclub/">Ver projeto ➔</a>
                 </div>
             </div>
 
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="assets/wide.png" alt="logo-wide">
+                <img class="img-projeto" src="assets/wide.png" alt="landing page wide coverage">
                 <div class="info-projeto">
                     <h3>Wide Coverage</h3>
-                    <p>O site é uma landing page moderna e responsiva, desenvolvida com HTML e CSS. Ele apresenta um design clean e profissional, com foco em destacar serviços ou produtos de forma objetiva e visualmente atraente.</p>
+                    <p>Landing page moderna com design profissional, criada com HTML e CSS.</p>
                     <a href="https://murilo-praxedes.github.io/wide-coverage/">Ver projeto ➔</a>
                 </div>
             </div>
 
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="assets/mario.png" alt="mario">
+                <img class="img-projeto" src="assets/mario.png" alt="projeto mario bros">
                 <div class="info-projeto">
                     <h3>Mario Bros</h3>
-                    <p>O site é uma animação interativa inspirada no universo do Mario, desenvolvida com HTML, CSS e JavaScript. Ele apresenta um design dinâmico com elementos animados, proporcionando uma experiência visual envolvente.</p>
+                    <p>Animação interativa inspirada em Mario Bros, com elementos dinâmicos em HTML, CSS e JS.</p>
                     <a href="https://murilo-praxedes.github.io/Projeto-mario/">Ver projeto ➔</a>
                 </div>
             </div>
@@ -86,21 +73,12 @@
 
     <section class="secao" id="aboutSection">
         <h2 class="titulo-secao">Sobre Mim</h2>
-
         <div class="sobre">
-            <img class="img-sobre" src="assets/perfil linkedin.jpeg" alt="foto-eu">
-
+            <img class="img-sobre" src="assets/perfil-linkedin.jpeg" alt="foto Murilo Praxedes">
             <div class="conteudo-sobre">
                 <h2>Desenvolvedor com paixão em criar soluções digitais</h2>
-                <p>Olá, meu nome é Murilo Praxedes e sou um desenvolvedor front-end apaixonado por criar experiências
-                    digitais incríveis. Com 2 anos de experiência em desenvolvimento web, tenho trabalhado com
-                    tecnologias como HTML, CSS, JavaScript e React.js.
-
-                <p>Minha abordagem para o desenvolvimento é centrada no usuário, sempre buscando criar interfaces
-                    intuitivas e fáceis de usar. Acredito que a usabilidade é uma parte essencial de qualquer aplicação,
-                    e por isso sempre me esforço para garantir que as minhas soluções sejam fáceis de usar e navegáveis.
-                </p>
-
+                <p>Sou um desenvolvedor front-end com 2 anos de experiência, especializado em HTML, CSS, JavaScript e React.js.</p>
+                <p>Foco na criação de interfaces intuitivas, com usabilidade e experiência do usuário como prioridade.</p>
                 <div class="habilidades">
                     <span class="tag-habilidades efeito-cursor">HTML5</span>
                     <span class="tag-habilidades efeito-cursor">CSS3</span>
@@ -115,7 +93,6 @@
 
     <section class="secao" id="contactSection">
         <h2 class="titulo-secao">Contato</h2>
-
         <div class="botoes-contato">
             <a href="https://wa.me/5581998901866?text=%F0%9F%93%A9%20Oi!%20Vi%20seu%20contato%20e%20t%C3%B4%20querendo%20um%20site%20top!%20Voc%C3%AA%20pode%20me%20contar%20mais%20sobre%20como%20funciona%20a%20cria%C3%A7%C3%A3o%20de%20sites%20e%20landing%20pages%3F"
                 target="_blank" class="botao-contato whatsapp efeito-cursor">
@@ -126,7 +103,7 @@
                 <span>Whatsapp</span>
             </a>
 
-            <a href="mailto:mrlpraxedes@gmail.com" target="_blank" class="botao-contato email efeito-cursor">
+            <a href="mailto:murilodev25@gmail.com?subject=Contato%20do%20Portfólio&body=Olá%20Murilo,%20gostaria%20de%20falar%20sobre..." target="_blank" class="botao-contato email efeito-cursor">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
                     <path
                         d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
@@ -150,9 +127,10 @@
                 <span>Github</span>
             </a>
         </div>
+        </div>
     </section>
 
-    <footer>Feito por Murilo Praxedes.🚀</footer>
+    <footer>Feito por Murilo Praxedes 🚀</footer>
 
     <div class="cursor"></div>
 </body>
